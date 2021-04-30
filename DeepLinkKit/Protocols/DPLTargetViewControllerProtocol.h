@@ -1,4 +1,6 @@
-@import UIKit;
+#if !TARGET_OS_OSX
+#import <UIKit/UIKit.h>
+#endif
 
 @class DPLDeepLink;
 

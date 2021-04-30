@@ -1,0 +1,137 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "DeepLinkKit-debug.module": ["<DeepLinkKit-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<DeepLinkKit-debug.module>"]
+  "test": ["<DeepLinkKit-debug.module>"]
+default: "main"
+nodes:
+  "/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/":
+    is-directory-structure: true
+commands:
+  "/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Categories/NSObject+DPLJSONObject.m.o":
+    tool: clang
+    inputs: ["/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/Categories/NSObject+DPLJSONObject.m"]
+    outputs: ["/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Categories/NSObject+DPLJSONObject.m.o"]
+    description: "Compiling DeepLinkKit Categories/NSObject+DPLJSONObject.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=DeepLinkKit","-I","/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/include","-fmodules-cache-path=/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Categories/NSObject+DPLJSONObject.m.d","-c","/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/Categories/NSObject+DPLJSONObject.m","-o","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Categories/NSObject+DPLJSONObject.m.o"]
+    deps: "/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Categories/NSObject+DPLJSONObject.m.d"
+
+  "/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Categories/NSString+DPLJSON.m.o":
+    tool: clang
+    inputs: ["/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/Categories/NSString+DPLJSON.m"]
+    outputs: ["/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Categories/NSString+DPLJSON.m.o"]
+    description: "Compiling DeepLinkKit Categories/NSString+DPLJSON.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=DeepLinkKit","-I","/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/include","-fmodules-cache-path=/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Categories/NSString+DPLJSON.m.d","-c","/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/Categories/NSString+DPLJSON.m","-o","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Categories/NSString+DPLJSON.m.o"]
+    deps: "/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Categories/NSString+DPLJSON.m.d"
+
+  "/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Categories/NSString+DPLQuery.m.o":
+    tool: clang
+    inputs: ["/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/Categories/NSString+DPLQuery.m"]
+    outputs: ["/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Categories/NSString+DPLQuery.m.o"]
+    description: "Compiling DeepLinkKit Categories/NSString+DPLQuery.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=DeepLinkKit","-I","/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/include","-fmodules-cache-path=/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Categories/NSString+DPLQuery.m.d","-c","/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/Categories/NSString+DPLQuery.m","-o","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Categories/NSString+DPLQuery.m.o"]
+    deps: "/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Categories/NSString+DPLQuery.m.d"
+
+  "/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Categories/NSString+DPLTrim.m.o":
+    tool: clang
+    inputs: ["/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/Categories/NSString+DPLTrim.m"]
+    outputs: ["/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Categories/NSString+DPLTrim.m.o"]
+    description: "Compiling DeepLinkKit Categories/NSString+DPLTrim.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=DeepLinkKit","-I","/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/include","-fmodules-cache-path=/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Categories/NSString+DPLTrim.m.d","-c","/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/Categories/NSString+DPLTrim.m","-o","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Categories/NSString+DPLTrim.m.o"]
+    deps: "/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Categories/NSString+DPLTrim.m.d"
+
+  "/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Categories/UINavigationController+DPLRouting.m.o":
+    tool: clang
+    inputs: ["/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/Categories/UINavigationController+DPLRouting.m"]
+    outputs: ["/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Categories/UINavigationController+DPLRouting.m.o"]
+    description: "Compiling DeepLinkKit Categories/UINavigationController+DPLRouting.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=DeepLinkKit","-I","/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/include","-fmodules-cache-path=/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Categories/UINavigationController+DPLRouting.m.d","-c","/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/Categories/UINavigationController+DPLRouting.m","-o","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Categories/UINavigationController+DPLRouting.m.o"]
+    deps: "/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Categories/UINavigationController+DPLRouting.m.d"
+
+  "/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/DeepLink/DPLDeepLink+AppLinks.m.o":
+    tool: clang
+    inputs: ["/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/DeepLink/DPLDeepLink+AppLinks.m"]
+    outputs: ["/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/DeepLink/DPLDeepLink+AppLinks.m.o"]
+    description: "Compiling DeepLinkKit DeepLink/DPLDeepLink+AppLinks.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=DeepLinkKit","-I","/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/include","-fmodules-cache-path=/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/DeepLink/DPLDeepLink+AppLinks.m.d","-c","/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/DeepLink/DPLDeepLink+AppLinks.m","-o","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/DeepLink/DPLDeepLink+AppLinks.m.o"]
+    deps: "/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/DeepLink/DPLDeepLink+AppLinks.m.d"
+
+  "/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/DeepLink/DPLDeepLink.m.o":
+    tool: clang
+    inputs: ["/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/DeepLink/DPLDeepLink.m"]
+    outputs: ["/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/DeepLink/DPLDeepLink.m.o"]
+    description: "Compiling DeepLinkKit DeepLink/DPLDeepLink.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=DeepLinkKit","-I","/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/include","-fmodules-cache-path=/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/DeepLink/DPLDeepLink.m.d","-c","/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/DeepLink/DPLDeepLink.m","-o","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/DeepLink/DPLDeepLink.m.o"]
+    deps: "/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/DeepLink/DPLDeepLink.m.d"
+
+  "/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/DeepLink/DPLMutableDeepLink+AppLinks.m.o":
+    tool: clang
+    inputs: ["/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/DeepLink/DPLMutableDeepLink+AppLinks.m"]
+    outputs: ["/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/DeepLink/DPLMutableDeepLink+AppLinks.m.o"]
+    description: "Compiling DeepLinkKit DeepLink/DPLMutableDeepLink+AppLinks.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=DeepLinkKit","-I","/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/include","-fmodules-cache-path=/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/DeepLink/DPLMutableDeepLink+AppLinks.m.d","-c","/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/DeepLink/DPLMutableDeepLink+AppLinks.m","-o","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/DeepLink/DPLMutableDeepLink+AppLinks.m.o"]
+    deps: "/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/DeepLink/DPLMutableDeepLink+AppLinks.m.d"
+
+  "/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/DeepLink/DPLMutableDeepLink.m.o":
+    tool: clang
+    inputs: ["/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/DeepLink/DPLMutableDeepLink.m"]
+    outputs: ["/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/DeepLink/DPLMutableDeepLink.m.o"]
+    description: "Compiling DeepLinkKit DeepLink/DPLMutableDeepLink.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=DeepLinkKit","-I","/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/include","-fmodules-cache-path=/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/DeepLink/DPLMutableDeepLink.m.d","-c","/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/DeepLink/DPLMutableDeepLink.m","-o","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/DeepLink/DPLMutableDeepLink.m.o"]
+    deps: "/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/DeepLink/DPLMutableDeepLink.m.d"
+
+  "/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Regex/DPLMatchResult.m.o":
+    tool: clang
+    inputs: ["/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/Regex/DPLMatchResult.m"]
+    outputs: ["/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Regex/DPLMatchResult.m.o"]
+    description: "Compiling DeepLinkKit Regex/DPLMatchResult.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=DeepLinkKit","-I","/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/include","-fmodules-cache-path=/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Regex/DPLMatchResult.m.d","-c","/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/Regex/DPLMatchResult.m","-o","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Regex/DPLMatchResult.m.o"]
+    deps: "/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Regex/DPLMatchResult.m.d"
+
+  "/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Regex/DPLRegularExpression.m.o":
+    tool: clang
+    inputs: ["/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/Regex/DPLRegularExpression.m"]
+    outputs: ["/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Regex/DPLRegularExpression.m.o"]
+    description: "Compiling DeepLinkKit Regex/DPLRegularExpression.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=DeepLinkKit","-I","/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/include","-fmodules-cache-path=/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Regex/DPLRegularExpression.m.d","-c","/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/Regex/DPLRegularExpression.m","-o","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Regex/DPLRegularExpression.m.o"]
+    deps: "/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Regex/DPLRegularExpression.m.d"
+
+  "/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/RouteHandler/DPLRouteHandler.m.o":
+    tool: clang
+    inputs: ["/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/RouteHandler/DPLRouteHandler.m"]
+    outputs: ["/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/RouteHandler/DPLRouteHandler.m.o"]
+    description: "Compiling DeepLinkKit RouteHandler/DPLRouteHandler.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=DeepLinkKit","-I","/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/include","-fmodules-cache-path=/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/RouteHandler/DPLRouteHandler.m.d","-c","/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/RouteHandler/DPLRouteHandler.m","-o","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/RouteHandler/DPLRouteHandler.m.o"]
+    deps: "/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/RouteHandler/DPLRouteHandler.m.d"
+
+  "/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/RouteMatcher/DPLRouteMatcher.m.o":
+    tool: clang
+    inputs: ["/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/RouteMatcher/DPLRouteMatcher.m"]
+    outputs: ["/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/RouteMatcher/DPLRouteMatcher.m.o"]
+    description: "Compiling DeepLinkKit RouteMatcher/DPLRouteMatcher.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=DeepLinkKit","-I","/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/include","-fmodules-cache-path=/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/RouteMatcher/DPLRouteMatcher.m.d","-c","/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/RouteMatcher/DPLRouteMatcher.m","-o","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/RouteMatcher/DPLRouteMatcher.m.o"]
+    deps: "/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/RouteMatcher/DPLRouteMatcher.m.d"
+
+  "/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Router/DPLDeepLinkRouter.m.o":
+    tool: clang
+    inputs: ["/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/Router/DPLDeepLinkRouter.m"]
+    outputs: ["/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Router/DPLDeepLinkRouter.m.o"]
+    description: "Compiling DeepLinkKit Router/DPLDeepLinkRouter.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=DeepLinkKit","-I","/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/include","-fmodules-cache-path=/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Router/DPLDeepLinkRouter.m.d","-c","/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/Router/DPLDeepLinkRouter.m","-o","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Router/DPLDeepLinkRouter.m.o"]
+    deps: "/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Router/DPLDeepLinkRouter.m.d"
+
+  "<DeepLinkKit-debug.module>":
+    tool: phony
+    inputs: ["/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Categories/NSObject+DPLJSONObject.m.o","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Categories/NSString+DPLJSON.m.o","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Categories/NSString+DPLQuery.m.o","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Categories/NSString+DPLTrim.m.o","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Categories/UINavigationController+DPLRouting.m.o","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/DeepLink/DPLDeepLink+AppLinks.m.o","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/DeepLink/DPLDeepLink.m.o","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/DeepLink/DPLMutableDeepLink+AppLinks.m.o","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/DeepLink/DPLMutableDeepLink.m.o","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Regex/DPLMatchResult.m.o","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Regex/DPLRegularExpression.m.o","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/RouteHandler/DPLRouteHandler.m.o","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/RouteMatcher/DPLRouteMatcher.m.o","/Users/vadym/Projects/DeepLinkKit/.build/x86_64-apple-macosx/debug/DeepLinkKit.build/Router/DPLDeepLinkRouter.m.o"]
+    outputs: ["<DeepLinkKit-debug.module>"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/vadym/Projects/DeepLinkKit/DeepLinkKit/","/Users/vadym/Projects/DeepLinkKit/Package.swift","/Users/vadym/Projects/DeepLinkKit/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+
