@@ -29,49 +29,51 @@
 		62EE96F61B570B10003D7564 /* DPLProductDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = DE025EB01A5F0D37007C4F3A /* DPLProductDataSource.m */; };
 		62EE96F71B570B13003D7564 /* DPLProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = DE87B1F01A5DF49F00204A35 /* DPLProduct.m */; };
 		62EE96F81B570B16003D7564 /* DPLProductTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAD327A19E079D3003C8D65 /* DPLProductTableViewController.m */; };
+		63262C9D263C42FE005D95B7 /* DPLMutableDeepLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C7E263C42FE005D95B7 /* DPLMutableDeepLink.m */; };
+		63262C9E263C42FE005D95B7 /* DPLMutableDeepLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C7E263C42FE005D95B7 /* DPLMutableDeepLink.m */; };
+		63262C9F263C42FE005D95B7 /* DPLMutableDeepLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C7E263C42FE005D95B7 /* DPLMutableDeepLink.m */; };
+		63262CA0263C42FE005D95B7 /* NSString+DPLQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C81263C42FE005D95B7 /* NSString+DPLQuery.m */; };
+		63262CA1263C42FE005D95B7 /* NSString+DPLQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C81263C42FE005D95B7 /* NSString+DPLQuery.m */; };
+		63262CA2263C42FE005D95B7 /* NSString+DPLQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C81263C42FE005D95B7 /* NSString+DPLQuery.m */; };
+		63262CA3263C42FE005D95B7 /* DPLRouteMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C84263C42FE005D95B7 /* DPLRouteMatcher.m */; };
+		63262CA4263C42FE005D95B7 /* DPLRouteMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C84263C42FE005D95B7 /* DPLRouteMatcher.m */; };
+		63262CA5263C42FE005D95B7 /* DPLRouteMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C84263C42FE005D95B7 /* DPLRouteMatcher.m */; };
+		63262CA6263C42FE005D95B7 /* DPLMatchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C85263C42FE005D95B7 /* DPLMatchResult.m */; };
+		63262CA7263C42FE005D95B7 /* DPLMatchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C85263C42FE005D95B7 /* DPLMatchResult.m */; };
+		63262CA8263C42FE005D95B7 /* DPLMatchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C85263C42FE005D95B7 /* DPLMatchResult.m */; };
+		63262CA9263C42FE005D95B7 /* NSString+DPLJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C88263C42FE005D95B7 /* NSString+DPLJSON.m */; };
+		63262CAA263C42FE005D95B7 /* NSString+DPLJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C88263C42FE005D95B7 /* NSString+DPLJSON.m */; };
+		63262CAB263C42FE005D95B7 /* NSString+DPLJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C88263C42FE005D95B7 /* NSString+DPLJSON.m */; };
+		63262CAC263C42FE005D95B7 /* DPLMutableDeepLink+AppLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C8A263C42FE005D95B7 /* DPLMutableDeepLink+AppLinks.m */; };
+		63262CAD263C42FE005D95B7 /* DPLMutableDeepLink+AppLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C8A263C42FE005D95B7 /* DPLMutableDeepLink+AppLinks.m */; };
+		63262CAE263C42FE005D95B7 /* DPLMutableDeepLink+AppLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C8A263C42FE005D95B7 /* DPLMutableDeepLink+AppLinks.m */; };
+		63262CAF263C42FE005D95B7 /* DPLDeepLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C8B263C42FE005D95B7 /* DPLDeepLink.m */; };
+		63262CB0263C42FE005D95B7 /* DPLDeepLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C8B263C42FE005D95B7 /* DPLDeepLink.m */; };
+		63262CB1263C42FE005D95B7 /* DPLDeepLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C8B263C42FE005D95B7 /* DPLDeepLink.m */; };
+		63262CB2263C42FE005D95B7 /* DPLRegularExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C8C263C42FE005D95B7 /* DPLRegularExpression.m */; };
+		63262CB3263C42FE005D95B7 /* DPLRegularExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C8C263C42FE005D95B7 /* DPLRegularExpression.m */; };
+		63262CB4263C42FE005D95B7 /* DPLRegularExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C8C263C42FE005D95B7 /* DPLRegularExpression.m */; };
+		63262CB5263C42FE005D95B7 /* DPLDeepLink+AppLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C8E263C42FE005D95B7 /* DPLDeepLink+AppLinks.m */; };
+		63262CB6263C42FE005D95B7 /* DPLDeepLink+AppLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C8E263C42FE005D95B7 /* DPLDeepLink+AppLinks.m */; };
+		63262CB7263C42FE005D95B7 /* DPLDeepLink+AppLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C8E263C42FE005D95B7 /* DPLDeepLink+AppLinks.m */; };
+		63262CB8263C42FE005D95B7 /* UINavigationController+DPLRouting.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C92263C42FE005D95B7 /* UINavigationController+DPLRouting.m */; };
+		63262CB9263C42FE005D95B7 /* UINavigationController+DPLRouting.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C92263C42FE005D95B7 /* UINavigationController+DPLRouting.m */; };
+		63262CBA263C42FE005D95B7 /* UINavigationController+DPLRouting.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C92263C42FE005D95B7 /* UINavigationController+DPLRouting.m */; };
+		63262CBB263C42FE005D95B7 /* NSString+DPLTrim.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C94263C42FE005D95B7 /* NSString+DPLTrim.m */; };
+		63262CBC263C42FE005D95B7 /* NSString+DPLTrim.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C94263C42FE005D95B7 /* NSString+DPLTrim.m */; };
+		63262CBD263C42FE005D95B7 /* NSString+DPLTrim.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C94263C42FE005D95B7 /* NSString+DPLTrim.m */; };
+		63262CBE263C42FE005D95B7 /* NSObject+DPLJSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C95263C42FE005D95B7 /* NSObject+DPLJSONObject.m */; };
+		63262CBF263C42FE005D95B7 /* NSObject+DPLJSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C95263C42FE005D95B7 /* NSObject+DPLJSONObject.m */; };
+		63262CC0263C42FE005D95B7 /* NSObject+DPLJSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C95263C42FE005D95B7 /* NSObject+DPLJSONObject.m */; };
+		63262CC1263C42FE005D95B7 /* DPLRouteHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C99263C42FE005D95B7 /* DPLRouteHandler.m */; };
+		63262CC2263C42FE005D95B7 /* DPLRouteHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C99263C42FE005D95B7 /* DPLRouteHandler.m */; };
+		63262CC3263C42FE005D95B7 /* DPLRouteHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C99263C42FE005D95B7 /* DPLRouteHandler.m */; };
+		63262CC4263C42FE005D95B7 /* DPLDeepLinkRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C9B263C42FE005D95B7 /* DPLDeepLinkRouter.m */; };
+		63262CC5263C42FE005D95B7 /* DPLDeepLinkRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C9B263C42FE005D95B7 /* DPLDeepLinkRouter.m */; };
+		63262CC6263C42FE005D95B7 /* DPLDeepLinkRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262C9B263C42FE005D95B7 /* DPLDeepLinkRouter.m */; };
 		69E6850D1F1015F900D6D8CC /* DPLWontHandleRouteHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E6850C1F1015F900D6D8CC /* DPLWontHandleRouteHandler.m */; };
-		A982D6482164636100FDFCCF /* DPLDeepLink+AppLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA55ADC1A5F1A0700C312F5 /* DPLDeepLink+AppLinks.m */; };
-		A982D6492164636100FDFCCF /* UINavigationController+DPLRouting.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B5F591CB301300086227F /* UINavigationController+DPLRouting.m */; };
-		A982D64A2164636100FDFCCF /* NSString+DPLTrim.m in Sources */ = {isa = PBXBuildFile; fileRef = DE16E91B1A42720D00077E18 /* NSString+DPLTrim.m */; };
-		A982D64B2164636100FDFCCF /* DPLDeepLink.m in Sources */ = {isa = PBXBuildFile; fileRef = DE058E0D1A3B484A00147C04 /* DPLDeepLink.m */; };
-		A982D64C2164636100FDFCCF /* NSString+DPLJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3E61091A3B4485008D6DFC /* NSString+DPLJSON.m */; };
-		A982D64D2164636100FDFCCF /* DPLRouteMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = DE16E9351A4289D500077E18 /* DPLRouteMatcher.m */; };
-		A982D64E2164636100FDFCCF /* DPLDeepLinkRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = DE16E9211A42882F00077E18 /* DPLDeepLinkRouter.m */; };
-		A982D64F2164636100FDFCCF /* DPLRegularExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D34C3E1B03ECAD00BA6EF1 /* DPLRegularExpression.m */; };
-		A982D6502164636100FDFCCF /* DPLMatchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D34C3C1B03ECAD00BA6EF1 /* DPLMatchResult.m */; };
-		A982D6512164636100FDFCCF /* DPLMutableDeepLink.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB324A1A87C64E0071C76E /* DPLMutableDeepLink.m */; };
-		A982D6522164636100FDFCCF /* NSString+DPLQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = DE058E081A3B46F500147C04 /* NSString+DPLQuery.m */; };
-		A982D6532164636100FDFCCF /* DPLRouteHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAC40711A5DA86A004A9095 /* DPLRouteHandler.m */; };
-		A982D6542164636100FDFCCF /* NSObject+DPLJSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB32511A87E94B0071C76E /* NSObject+DPLJSONObject.m */; };
-		A982D6552164636100FDFCCF /* DPLMutableDeepLink+AppLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB324C1A87C6750071C76E /* DPLMutableDeepLink+AppLinks.m */; };
-		A982D6582164636100FDFCCF /* DPLErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = DEAC406E1A5D97EE004A9095 /* DPLErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A982D6592164636100FDFCCF /* DeepLinkKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DEB4EDBD1A4A726200F31D14 /* DeepLinkKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A982D65A2164636100FDFCCF /* DPLDeepLinkRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = DE16E9201A42882F00077E18 /* DPLDeepLinkRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A982D65B2164636100FDFCCF /* DPLRouteHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = DEAC40701A5DA86A004A9095 /* DPLRouteHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A982D65C2164636100FDFCCF /* DPLTargetViewControllerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DE99EF781A3B83D100CE3449 /* DPLTargetViewControllerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A982D65D2164636100FDFCCF /* DPLMutableDeepLink.h in Headers */ = {isa = PBXBuildFile; fileRef = DECB32491A87C64E0071C76E /* DPLMutableDeepLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A982D65E2164636100FDFCCF /* DPLDeepLink.h in Headers */ = {isa = PBXBuildFile; fileRef = DE058E0C1A3B484A00147C04 /* DPLDeepLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFDB96F71F3C0011001AE303 /* NSString+DPLTrim.m in Sources */ = {isa = PBXBuildFile; fileRef = DE16E91B1A42720D00077E18 /* NSString+DPLTrim.m */; };
-		BFDB96F81F3C0011001AE303 /* NSString+DPLQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = DE058E081A3B46F500147C04 /* NSString+DPLQuery.m */; };
-		BFDB96F91F3C0011001AE303 /* NSString+DPLJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3E61091A3B4485008D6DFC /* NSString+DPLJSON.m */; };
-		BFDB96FA1F3C0011001AE303 /* NSObject+DPLJSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB32511A87E94B0071C76E /* NSObject+DPLJSONObject.m */; };
-		BFDB96FB1F3C0011001AE303 /* UINavigationController+DPLRouting.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B5F591CB301300086227F /* UINavigationController+DPLRouting.m */; };
-		BFDB96FC1F3C0011001AE303 /* DPLMatchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D34C3C1B03ECAD00BA6EF1 /* DPLMatchResult.m */; };
-		BFDB96FD1F3C0011001AE303 /* DPLRegularExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D34C3E1B03ECAD00BA6EF1 /* DPLRegularExpression.m */; };
-		BFDB96FE1F3C0011001AE303 /* DPLDeepLinkRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = DE16E9211A42882F00077E18 /* DPLDeepLinkRouter.m */; };
-		BFDB96FF1F3C0011001AE303 /* DPLRouteHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAC40711A5DA86A004A9095 /* DPLRouteHandler.m */; };
-		BFDB97001F3C0011001AE303 /* DPLRouteMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = DE16E9351A4289D500077E18 /* DPLRouteMatcher.m */; };
-		BFDB97011F3C0011001AE303 /* DPLDeepLink+AppLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA55ADC1A5F1A0700C312F5 /* DPLDeepLink+AppLinks.m */; };
-		BFDB97021F3C0011001AE303 /* DPLMutableDeepLink+AppLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB324C1A87C6750071C76E /* DPLMutableDeepLink+AppLinks.m */; };
-		BFDB97031F3C0011001AE303 /* DPLDeepLink.m in Sources */ = {isa = PBXBuildFile; fileRef = DE058E0D1A3B484A00147C04 /* DPLDeepLink.m */; };
-		BFDB97041F3C0011001AE303 /* DPLMutableDeepLink.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB324A1A87C64E0071C76E /* DPLMutableDeepLink.m */; };
 		BFDB97051F3C0048001AE303 /* DeepLinkKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DEB4EDBD1A4A726200F31D14 /* DeepLinkKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFDB97061F3C0048001AE303 /* DPLTargetViewControllerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DE99EF781A3B83D100CE3449 /* DPLTargetViewControllerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFDB97071F3C0048001AE303 /* DPLErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = DEAC406E1A5D97EE004A9095 /* DPLErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFDB97081F3C0048001AE303 /* DPLDeepLinkRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = DE16E9201A42882F00077E18 /* DPLDeepLinkRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFDB97091F3C0048001AE303 /* DPLRouteHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = DEAC40701A5DA86A004A9095 /* DPLRouteHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFDB970A1F3C0048001AE303 /* DPLDeepLink.h in Headers */ = {isa = PBXBuildFile; fileRef = DE058E0C1A3B484A00147C04 /* DPLDeepLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFDB970B1F3C0048001AE303 /* DPLMutableDeepLink.h in Headers */ = {isa = PBXBuildFile; fileRef = DECB32491A87C64E0071C76E /* DPLMutableDeepLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C63116DB33AD849960B2EA55 /* Pods_SenderDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA7EE926AA6053C8315A931 /* Pods_SenderDemo.framework */; };
 		DE025EB11A5F0D37007C4F3A /* DPLProductDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = DE025EB01A5F0D37007C4F3A /* DPLProductDataSource.m */; };
 		DE058E0A1A3B46FD00147C04 /* NSString_DPLQuerySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = DE058E091A3B46FD00147C04 /* NSString_DPLQuerySpec.m */; };
@@ -141,12 +143,40 @@
 		62891E8A1B57FE5A00C2AF4F /* DPLMessageRouteHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPLMessageRouteHandler.swift; sourceTree = "<group>"; };
 		62EE96F11B57011D003D7564 /* ReceiverDemoSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReceiverDemoSwift-Bridging-Header.h"; sourceTree = "<group>"; };
 		62EE96F31B570891003D7564 /* DPLProductRouteHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPLProductRouteHandler.swift; sourceTree = "<group>"; };
+		63262C7D263C42FE005D95B7 /* DPLDeepLink+AppLinks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DPLDeepLink+AppLinks.h"; sourceTree = "<group>"; };
+		63262C7E263C42FE005D95B7 /* DPLMutableDeepLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLMutableDeepLink.m; sourceTree = "<group>"; };
+		63262C7F263C42FE005D95B7 /* NSObject+DPLJSONObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DPLJSONObject.h"; sourceTree = "<group>"; };
+		63262C80263C42FE005D95B7 /* NSString+DPLTrim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DPLTrim.h"; sourceTree = "<group>"; };
+		63262C81263C42FE005D95B7 /* NSString+DPLQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DPLQuery.m"; sourceTree = "<group>"; };
+		63262C82263C42FE005D95B7 /* UINavigationController+DPLRouting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+DPLRouting.h"; sourceTree = "<group>"; };
+		63262C83263C42FE005D95B7 /* DPLErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLErrors.h; sourceTree = "<group>"; };
+		63262C84263C42FE005D95B7 /* DPLRouteMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLRouteMatcher.m; sourceTree = "<group>"; };
+		63262C85263C42FE005D95B7 /* DPLMatchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLMatchResult.m; sourceTree = "<group>"; };
+		63262C86263C42FE005D95B7 /* DPLDeepLinkRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLDeepLinkRouter.h; sourceTree = "<group>"; };
+		63262C87263C42FE005D95B7 /* DPLSerializable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLSerializable.h; sourceTree = "<group>"; };
+		63262C88263C42FE005D95B7 /* NSString+DPLJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DPLJSON.m"; sourceTree = "<group>"; };
+		63262C89263C42FE005D95B7 /* DPLRouteHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLRouteHandler.h; sourceTree = "<group>"; };
+		63262C8A263C42FE005D95B7 /* DPLMutableDeepLink+AppLinks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DPLMutableDeepLink+AppLinks.m"; sourceTree = "<group>"; };
+		63262C8B263C42FE005D95B7 /* DPLDeepLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLDeepLink.m; sourceTree = "<group>"; };
+		63262C8C263C42FE005D95B7 /* DPLRegularExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLRegularExpression.m; sourceTree = "<group>"; };
+		63262C8D263C42FE005D95B7 /* DPLMutableDeepLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLMutableDeepLink.h; sourceTree = "<group>"; };
+		63262C8E263C42FE005D95B7 /* DPLDeepLink+AppLinks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DPLDeepLink+AppLinks.m"; sourceTree = "<group>"; };
+		63262C8F263C42FE005D95B7 /* DPLDeepLink_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLDeepLink_Private.h; sourceTree = "<group>"; };
+		63262C90263C42FE005D95B7 /* DPLMatchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLMatchResult.h; sourceTree = "<group>"; };
+		63262C91263C42FE005D95B7 /* DPLRouteMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLRouteMatcher.h; sourceTree = "<group>"; };
+		63262C92263C42FE005D95B7 /* UINavigationController+DPLRouting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+DPLRouting.m"; sourceTree = "<group>"; };
+		63262C93263C42FE005D95B7 /* NSString+DPLQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DPLQuery.h"; sourceTree = "<group>"; };
+		63262C94263C42FE005D95B7 /* NSString+DPLTrim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DPLTrim.m"; sourceTree = "<group>"; };
+		63262C95263C42FE005D95B7 /* NSObject+DPLJSONObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DPLJSONObject.m"; sourceTree = "<group>"; };
+		63262C96263C42FE005D95B7 /* DPLMutableDeepLink+AppLinks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DPLMutableDeepLink+AppLinks.h"; sourceTree = "<group>"; };
+		63262C97263C42FE005D95B7 /* DPLDeepLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLDeepLink.h; sourceTree = "<group>"; };
+		63262C98263C42FE005D95B7 /* DPLTargetViewControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLTargetViewControllerProtocol.h; sourceTree = "<group>"; };
+		63262C99263C42FE005D95B7 /* DPLRouteHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLRouteHandler.m; sourceTree = "<group>"; };
+		63262C9A263C42FE005D95B7 /* NSString+DPLJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DPLJSON.h"; sourceTree = "<group>"; };
+		63262C9B263C42FE005D95B7 /* DPLDeepLinkRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLDeepLinkRouter.m; sourceTree = "<group>"; };
+		63262C9C263C42FE005D95B7 /* DPLRegularExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLRegularExpression.h; sourceTree = "<group>"; };
 		69E6850B1F1015F900D6D8CC /* DPLWontHandleRouteHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLWontHandleRouteHandler.h; sourceTree = "<group>"; };
 		69E6850C1F1015F900D6D8CC /* DPLWontHandleRouteHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLWontHandleRouteHandler.m; sourceTree = "<group>"; };
-		83D34C3B1B03ECAD00BA6EF1 /* DPLMatchResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPLMatchResult.h; sourceTree = "<group>"; };
-		83D34C3C1B03ECAD00BA6EF1 /* DPLMatchResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPLMatchResult.m; sourceTree = "<group>"; };
-		83D34C3D1B03ECAD00BA6EF1 /* DPLRegularExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPLRegularExpression.h; sourceTree = "<group>"; };
-		83D34C3E1B03ECAD00BA6EF1 /* DPLRegularExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPLRegularExpression.m; sourceTree = "<group>"; };
 		8949A4E8F681A12A47C20775 /* DeepLinkKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = DeepLinkKit.podspec; path = ./DeepLinkKit.podspec; sourceTree = "<group>"; };
 		95CF8D51CDFA096695B92552 /* Pods-ReceiverDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReceiverDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReceiverDemo/Pods-ReceiverDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A12E3C55EEAB8A1FC1C6C397 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -158,27 +188,13 @@
 		C7BB11C353B6743FCCEC7DAA /* Pods-SenderDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SenderDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SenderDemo/Pods-SenderDemo.release.xcconfig"; sourceTree = "<group>"; };
 		DE025EAF1A5F0D37007C4F3A /* DPLProductDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLProductDataSource.h; sourceTree = "<group>"; };
 		DE025EB01A5F0D37007C4F3A /* DPLProductDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLProductDataSource.m; sourceTree = "<group>"; };
-		DE058E071A3B46F500147C04 /* NSString+DPLQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+DPLQuery.h"; sourceTree = "<group>"; };
-		DE058E081A3B46F500147C04 /* NSString+DPLQuery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+DPLQuery.m"; sourceTree = "<group>"; };
 		DE058E091A3B46FD00147C04 /* NSString_DPLQuerySpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString_DPLQuerySpec.m; sourceTree = "<group>"; };
-		DE058E0C1A3B484A00147C04 /* DPLDeepLink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPLDeepLink.h; sourceTree = "<group>"; };
-		DE058E0D1A3B484A00147C04 /* DPLDeepLink.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPLDeepLink.m; sourceTree = "<group>"; };
 		DE058E0F1A3B485500147C04 /* DPLDeepLinkSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLDeepLinkSpec.m; sourceTree = "<group>"; };
 		DE11B99C1A42482F008A8F36 /* SenderDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SenderDemo-Prefix.pch"; sourceTree = "<group>"; };
-		DE16E91B1A42720D00077E18 /* NSString+DPLTrim.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+DPLTrim.m"; sourceTree = "<group>"; };
-		DE16E91C1A42720D00077E18 /* NSString+DPLTrim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+DPLTrim.h"; sourceTree = "<group>"; };
 		DE16E91D1A42733100077E18 /* NSString_DPLTrimSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString_DPLTrimSpec.m; sourceTree = "<group>"; };
-		DE16E9201A42882F00077E18 /* DPLDeepLinkRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPLDeepLinkRouter.h; sourceTree = "<group>"; };
-		DE16E9211A42882F00077E18 /* DPLDeepLinkRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPLDeepLinkRouter.m; sourceTree = "<group>"; };
 		DE16E9231A42883B00077E18 /* DPLDeepLinkRouterSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLDeepLinkRouterSpec.m; sourceTree = "<group>"; };
 		DE16E9271A42883B00077E18 /* DPLDeepLinkRouter_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLDeepLinkRouter_Private.h; sourceTree = "<group>"; };
-		DE16E9341A4289D500077E18 /* DPLRouteMatcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPLRouteMatcher.h; sourceTree = "<group>"; };
-		DE16E9351A4289D500077E18 /* DPLRouteMatcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPLRouteMatcher.m; sourceTree = "<group>"; };
 		DE16E9371A4289DF00077E18 /* DPLRouteMatcherSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLRouteMatcherSpec.m; sourceTree = "<group>"; };
-		DE1B5F581CB301300086227F /* UINavigationController+DPLRouting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+DPLRouting.h"; sourceTree = "<group>"; };
-		DE1B5F591CB301300086227F /* UINavigationController+DPLRouting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+DPLRouting.m"; sourceTree = "<group>"; };
-		DE3E61081A3B4485008D6DFC /* NSString+DPLJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+DPLJSON.h"; sourceTree = "<group>"; };
-		DE3E61091A3B4485008D6DFC /* NSString+DPLJSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+DPLJSON.m"; sourceTree = "<group>"; };
 		DE3E610D1A3B4492008D6DFC /* NSString_DPLJSONSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString_DPLJSONSpec.m; sourceTree = "<group>"; };
 		DE4128901A8BBE500089DAA2 /* AppLinks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppLinks.h; sourceTree = "<group>"; };
 		DE56F9AD1BD6B0B70090BF8C /* specta-focus-check.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "specta-focus-check.sh"; path = "BuildScripts/specta-focus-check.sh"; sourceTree = "<group>"; };
@@ -188,13 +204,7 @@
 		DE87B1F01A5DF49F00204A35 /* DPLProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLProduct.m; sourceTree = "<group>"; };
 		DE87B1F31A5E193100204A35 /* DPLProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLProductDetailViewController.h; sourceTree = "<group>"; };
 		DE87B1F41A5E193100204A35 /* DPLProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLProductDetailViewController.m; sourceTree = "<group>"; };
-		DE99EF781A3B83D100CE3449 /* DPLTargetViewControllerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPLTargetViewControllerProtocol.h; sourceTree = "<group>"; };
-		DEA55ADB1A5F1A0700C312F5 /* DPLDeepLink+AppLinks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DPLDeepLink+AppLinks.h"; sourceTree = "<group>"; };
-		DEA55ADC1A5F1A0700C312F5 /* DPLDeepLink+AppLinks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DPLDeepLink+AppLinks.m"; sourceTree = "<group>"; };
 		DEA55ADE1A5F2BBC00C312F5 /* DPLDeepLink_AppLinksSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLDeepLink_AppLinksSpec.m; sourceTree = "<group>"; };
-		DEAC406E1A5D97EE004A9095 /* DPLErrors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPLErrors.h; sourceTree = "<group>"; };
-		DEAC40701A5DA86A004A9095 /* DPLRouteHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPLRouteHandler.h; sourceTree = "<group>"; };
-		DEAC40711A5DA86A004A9095 /* DPLRouteHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPLRouteHandler.m; sourceTree = "<group>"; };
 		DEAD327619E079D3003C8D65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DEAD327719E079D3003C8D65 /* DPLReceiverAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLReceiverAppDelegate.h; sourceTree = "<group>"; };
 		DEAD327819E079D3003C8D65 /* DPLReceiverAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLReceiverAppDelegate.m; sourceTree = "<group>"; };
@@ -209,16 +219,9 @@
 		DEAD328419E079D3003C8D65 /* Tests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		DEAD328519E079D3003C8D65 /* Tests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		DEB497F61CB441FA005FC580 /* UINavigationController_DPLRoutingSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UINavigationController_DPLRoutingSpec.m; sourceTree = "<group>"; };
-		DEB4EDBC1A4A036D00F31D14 /* DPLDeepLink_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPLDeepLink_Private.h; sourceTree = "<group>"; };
 		DEB4EDBD1A4A726200F31D14 /* DeepLinkKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeepLinkKit.h; sourceTree = "<group>"; };
 		DEC308D71CAD6A05006828A5 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = DeepLinkKit/module.modulemap; sourceTree = "<group>"; };
 		DEC308D91CAD70A5006828A5 /* DeepLinkKit_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeepLinkKit_Private.h; sourceTree = "<group>"; };
-		DECB32491A87C64E0071C76E /* DPLMutableDeepLink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPLMutableDeepLink.h; sourceTree = "<group>"; };
-		DECB324A1A87C64E0071C76E /* DPLMutableDeepLink.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPLMutableDeepLink.m; sourceTree = "<group>"; };
-		DECB324B1A87C6750071C76E /* DPLMutableDeepLink+AppLinks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DPLMutableDeepLink+AppLinks.h"; sourceTree = "<group>"; };
-		DECB324C1A87C6750071C76E /* DPLMutableDeepLink+AppLinks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DPLMutableDeepLink+AppLinks.m"; sourceTree = "<group>"; };
-		DECB32501A87E94B0071C76E /* NSObject+DPLJSONObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSObject+DPLJSONObject.h"; path = "DeepLinkKit/Categories/NSObject+DPLJSONObject.h"; sourceTree = SOURCE_ROOT; };
-		DECB32511A87E94B0071C76E /* NSObject+DPLJSONObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSObject+DPLJSONObject.m"; path = "DeepLinkKit/Categories/NSObject+DPLJSONObject.m"; sourceTree = SOURCE_ROOT; };
 		DECB32521A881CA10071C76E /* NSObject_DPLJSONObjectSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObject_DPLJSONObjectSpec.m; sourceTree = "<group>"; };
 		DECB32541A882D1A0071C76E /* DPLMutableDeepLinkSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLMutableDeepLinkSpec.m; sourceTree = "<group>"; };
 		DECB32561A8866700071C76E /* DPLMutableDeepLink_AppLinksSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLMutableDeepLink_AppLinksSpec.m; sourceTree = "<group>"; };
@@ -235,7 +238,6 @@
 		DEE40E581A42A3F50097EA33 /* DPLDemoAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLDemoAction.m; sourceTree = "<group>"; };
 		DEE40E5C1A42ABE80097EA33 /* DPLActionDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DPLActionDataSource.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		DEE40E5D1A42ABE80097EA33 /* DPLActionDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DPLActionDataSource.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		DEEBD4A51AAB6FBB000BCA84 /* DPLSerializable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPLSerializable.h; sourceTree = "<group>"; };
 		DEEBD4A71AAB7946000BCA84 /* DPLSerializableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DPLSerializableObject.h; path = Fixtures/DPLSerializableObject.h; sourceTree = "<group>"; };
 		DEEBD4A81AAB7946000BCA84 /* DPLSerializableObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DPLSerializableObject.m; path = Fixtures/DPLSerializableObject.m; sourceTree = "<group>"; };
 		DF9272621ECB6C2824AD5C94 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ./LICENSE; sourceTree = "<group>"; };
@@ -392,15 +394,43 @@
 			path = RouteHandlers;
 			sourceTree = "<group>";
 		};
-		83D34C3A1B03ECAD00BA6EF1 /* Regex */ = {
+		63262C7C263C42FE005D95B7 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				83D34C3B1B03ECAD00BA6EF1 /* DPLMatchResult.h */,
-				83D34C3C1B03ECAD00BA6EF1 /* DPLMatchResult.m */,
-				83D34C3D1B03ECAD00BA6EF1 /* DPLRegularExpression.h */,
-				83D34C3E1B03ECAD00BA6EF1 /* DPLRegularExpression.m */,
+				63262C7D263C42FE005D95B7 /* DPLDeepLink+AppLinks.h */,
+				63262C7E263C42FE005D95B7 /* DPLMutableDeepLink.m */,
+				63262C7F263C42FE005D95B7 /* NSObject+DPLJSONObject.h */,
+				63262C80263C42FE005D95B7 /* NSString+DPLTrim.h */,
+				63262C81263C42FE005D95B7 /* NSString+DPLQuery.m */,
+				63262C82263C42FE005D95B7 /* UINavigationController+DPLRouting.h */,
+				63262C83263C42FE005D95B7 /* DPLErrors.h */,
+				63262C84263C42FE005D95B7 /* DPLRouteMatcher.m */,
+				63262C85263C42FE005D95B7 /* DPLMatchResult.m */,
+				63262C86263C42FE005D95B7 /* DPLDeepLinkRouter.h */,
+				63262C87263C42FE005D95B7 /* DPLSerializable.h */,
+				63262C88263C42FE005D95B7 /* NSString+DPLJSON.m */,
+				63262C89263C42FE005D95B7 /* DPLRouteHandler.h */,
+				63262C8A263C42FE005D95B7 /* DPLMutableDeepLink+AppLinks.m */,
+				63262C8B263C42FE005D95B7 /* DPLDeepLink.m */,
+				63262C8C263C42FE005D95B7 /* DPLRegularExpression.m */,
+				63262C8D263C42FE005D95B7 /* DPLMutableDeepLink.h */,
+				63262C8E263C42FE005D95B7 /* DPLDeepLink+AppLinks.m */,
+				63262C8F263C42FE005D95B7 /* DPLDeepLink_Private.h */,
+				63262C90263C42FE005D95B7 /* DPLMatchResult.h */,
+				63262C91263C42FE005D95B7 /* DPLRouteMatcher.h */,
+				63262C92263C42FE005D95B7 /* UINavigationController+DPLRouting.m */,
+				63262C93263C42FE005D95B7 /* NSString+DPLQuery.h */,
+				63262C94263C42FE005D95B7 /* NSString+DPLTrim.m */,
+				63262C95263C42FE005D95B7 /* NSObject+DPLJSONObject.m */,
+				63262C96263C42FE005D95B7 /* DPLMutableDeepLink+AppLinks.h */,
+				63262C97263C42FE005D95B7 /* DPLDeepLink.h */,
+				63262C98263C42FE005D95B7 /* DPLTargetViewControllerProtocol.h */,
+				63262C99263C42FE005D95B7 /* DPLRouteHandler.m */,
+				63262C9A263C42FE005D95B7 /* NSString+DPLJSON.h */,
+				63262C9B263C42FE005D95B7 /* DPLDeepLinkRouter.m */,
+				63262C9C263C42FE005D95B7 /* DPLRegularExpression.h */,
 			);
-			path = Regex;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		B7B006899D7C26BAA24F6B7E /* Pods */ = {
@@ -451,19 +481,6 @@
 			path = ActionsList;
 			sourceTree = "<group>";
 		};
-		DE058E0B1A3B484A00147C04 /* DeepLink */ = {
-			isa = PBXGroup;
-			children = (
-				DECB32481A87C6270071C76E /* AppLinks */,
-				DEB4EDBC1A4A036D00F31D14 /* DPLDeepLink_Private.h */,
-				DE058E0C1A3B484A00147C04 /* DPLDeepLink.h */,
-				DE058E0D1A3B484A00147C04 /* DPLDeepLink.m */,
-				DECB32491A87C64E0071C76E /* DPLMutableDeepLink.h */,
-				DECB324A1A87C64E0071C76E /* DPLMutableDeepLink.m */,
-			);
-			path = DeepLink;
-			sourceTree = "<group>";
-		};
 		DE058E0E1A3B485500147C04 /* DeepLink */ = {
 			isa = PBXGroup;
 			children = (
@@ -485,15 +502,6 @@
 			path = SampleApps;
 			sourceTree = "<group>";
 		};
-		DE16E91F1A42882F00077E18 /* Router */ = {
-			isa = PBXGroup;
-			children = (
-				DE16E9201A42882F00077E18 /* DPLDeepLinkRouter.h */,
-				DE16E9211A42882F00077E18 /* DPLDeepLinkRouter.m */,
-			);
-			path = Router;
-			sourceTree = "<group>";
-		};
 		DE16E9221A42883B00077E18 /* Router */ = {
 			isa = PBXGroup;
 			children = (
@@ -513,38 +521,12 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		DE16E9331A4289D500077E18 /* RouteMatcher */ = {
-			isa = PBXGroup;
-			children = (
-				DE16E9341A4289D500077E18 /* DPLRouteMatcher.h */,
-				DE16E9351A4289D500077E18 /* DPLRouteMatcher.m */,
-			);
-			path = RouteMatcher;
-			sourceTree = "<group>";
-		};
 		DE16E9361A4289DF00077E18 /* RouteMatcher */ = {
 			isa = PBXGroup;
 			children = (
 				DE16E9371A4289DF00077E18 /* DPLRouteMatcherSpec.m */,
 			);
 			path = RouteMatcher;
-			sourceTree = "<group>";
-		};
-		DE3E61071A3B4485008D6DFC /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				DE16E91C1A42720D00077E18 /* NSString+DPLTrim.h */,
-				DE16E91B1A42720D00077E18 /* NSString+DPLTrim.m */,
-				DE058E071A3B46F500147C04 /* NSString+DPLQuery.h */,
-				DE058E081A3B46F500147C04 /* NSString+DPLQuery.m */,
-				DE3E61081A3B4485008D6DFC /* NSString+DPLJSON.h */,
-				DE3E61091A3B4485008D6DFC /* NSString+DPLJSON.m */,
-				DECB32501A87E94B0071C76E /* NSObject+DPLJSONObject.h */,
-				DECB32511A87E94B0071C76E /* NSObject+DPLJSONObject.m */,
-				DE1B5F581CB301300086227F /* UINavigationController+DPLRouting.h */,
-				DE1B5F591CB301300086227F /* UINavigationController+DPLRouting.m */,
-			);
-			path = Categories;
 			sourceTree = "<group>";
 		};
 		DE3E610C1A3B4492008D6DFC /* Categories */ = {
@@ -574,14 +556,7 @@
 				DEB4EDBD1A4A726200F31D14 /* DeepLinkKit.h */,
 				DEC308D91CAD70A5006828A5 /* DeepLinkKit_Private.h */,
 				DE4128901A8BBE500089DAA2 /* AppLinks.h */,
-				DE99EF6A1A3B6CDD00CE3449 /* Protocols */,
-				DE3E61071A3B4485008D6DFC /* Categories */,
-				DEB4EDBB1A49CEA400F31D14 /* Errors */,
-				83D34C3A1B03ECAD00BA6EF1 /* Regex */,
-				DE16E91F1A42882F00077E18 /* Router */,
-				DEAC406F1A5DA7B8004A9095 /* RouteHandler */,
-				DE16E9331A4289D500077E18 /* RouteMatcher */,
-				DE058E0B1A3B484A00147C04 /* DeepLink */,
+				63262C7C263C42FE005D95B7 /* Source */,
 			);
 			path = DeepLinkKit;
 			sourceTree = "<group>";
@@ -593,15 +568,6 @@
 				DE87B1ED1A5DEFD400204A35 /* DPLProductRouteHandler.m */,
 			);
 			path = RouteHandlers;
-			sourceTree = "<group>";
-		};
-		DE99EF6A1A3B6CDD00CE3449 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				DE99EF781A3B83D100CE3449 /* DPLTargetViewControllerProtocol.h */,
-				DEEBD4A51AAB6FBB000BCA84 /* DPLSerializable.h */,
-			);
-			path = Protocols;
 			sourceTree = "<group>";
 		};
 		DE99EF7A1A3B844000CE3449 /* ProductList */ = {
@@ -622,15 +588,6 @@
 				DEAD328019E079D3003C8D65 /* ReceiverDemo-Prefix.pch */,
 			);
 			path = SupportingFiles;
-			sourceTree = "<group>";
-		};
-		DEAC406F1A5DA7B8004A9095 /* RouteHandler */ = {
-			isa = PBXGroup;
-			children = (
-				DEAC40701A5DA86A004A9095 /* DPLRouteHandler.h */,
-				DEAC40711A5DA86A004A9095 /* DPLRouteHandler.m */,
-			);
-			path = RouteHandler;
 			sourceTree = "<group>";
 		};
 		DEAD327219E079D3003C8D65 /* ReceiverDemo */ = {
@@ -665,14 +622,6 @@
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		DEB4EDBB1A49CEA400F31D14 /* Errors */ = {
-			isa = PBXGroup;
-			children = (
-				DEAC406E1A5D97EE004A9095 /* DPLErrors.h */,
-			);
-			path = Errors;
-			sourceTree = "<group>";
-		};
 		DEC1B07F1A365213002BB838 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
@@ -681,17 +630,6 @@
 				DEAD328519E079D3003C8D65 /* Tests-Prefix.pch */,
 			);
 			path = SupportingFiles;
-			sourceTree = "<group>";
-		};
-		DECB32481A87C6270071C76E /* AppLinks */ = {
-			isa = PBXGroup;
-			children = (
-				DEA55ADB1A5F1A0700C312F5 /* DPLDeepLink+AppLinks.h */,
-				DEA55ADC1A5F1A0700C312F5 /* DPLDeepLink+AppLinks.m */,
-				DECB324B1A87C6750071C76E /* DPLMutableDeepLink+AppLinks.h */,
-				DECB324C1A87C6750071C76E /* DPLMutableDeepLink+AppLinks.m */,
-			);
-			name = AppLinks;
 			sourceTree = "<group>";
 		};
 		DEDB148E1A3F944D00A837F8 /* SenderDemo */ = {
@@ -745,13 +683,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A982D6582164636100FDFCCF /* DPLErrors.h in Headers */,
 				A982D6592164636100FDFCCF /* DeepLinkKit.h in Headers */,
-				A982D65A2164636100FDFCCF /* DPLDeepLinkRouter.h in Headers */,
-				A982D65B2164636100FDFCCF /* DPLRouteHandler.h in Headers */,
-				A982D65C2164636100FDFCCF /* DPLTargetViewControllerProtocol.h in Headers */,
-				A982D65D2164636100FDFCCF /* DPLMutableDeepLink.h in Headers */,
-				A982D65E2164636100FDFCCF /* DPLDeepLink.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -759,13 +691,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFDB97071F3C0048001AE303 /* DPLErrors.h in Headers */,
 				BFDB97051F3C0048001AE303 /* DeepLinkKit.h in Headers */,
-				BFDB97081F3C0048001AE303 /* DPLDeepLinkRouter.h in Headers */,
-				BFDB97091F3C0048001AE303 /* DPLRouteHandler.h in Headers */,
-				BFDB97061F3C0048001AE303 /* DPLTargetViewControllerProtocol.h in Headers */,
-				BFDB970B1F3C0048001AE303 /* DPLMutableDeepLink.h in Headers */,
-				BFDB970A1F3C0048001AE303 /* DPLDeepLink.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -916,6 +842,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -1147,12 +1074,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63262CAC263C42FE005D95B7 /* DPLMutableDeepLink+AppLinks.m in Sources */,
 				DE87B1F51A5E193100204A35 /* DPLProductDetailViewController.m in Sources */,
+				63262CBB263C42FE005D95B7 /* NSString+DPLTrim.m in Sources */,
 				DEAD328A19E079D3003C8D65 /* DPLProductTableViewController.m in Sources */,
+				63262CBE263C42FE005D95B7 /* NSObject+DPLJSONObject.m in Sources */,
+				63262CC4263C42FE005D95B7 /* DPLDeepLinkRouter.m in Sources */,
 				DE025EB11A5F0D37007C4F3A /* DPLProductDataSource.m in Sources */,
+				63262CA3263C42FE005D95B7 /* DPLRouteMatcher.m in Sources */,
+				63262CA0263C42FE005D95B7 /* NSString+DPLQuery.m in Sources */,
+				63262CB2263C42FE005D95B7 /* DPLRegularExpression.m in Sources */,
+				63262CB8263C42FE005D95B7 /* UINavigationController+DPLRouting.m in Sources */,
+				63262CAF263C42FE005D95B7 /* DPLDeepLink.m in Sources */,
 				DE87B1F11A5DF49F00204A35 /* DPLProduct.m in Sources */,
 				DE87B1EE1A5DEFD400204A35 /* DPLProductRouteHandler.m in Sources */,
+				63262CC1263C42FE005D95B7 /* DPLRouteHandler.m in Sources */,
+				63262CB5263C42FE005D95B7 /* DPLDeepLink+AppLinks.m in Sources */,
+				63262CA6263C42FE005D95B7 /* DPLMatchResult.m in Sources */,
+				63262C9D263C42FE005D95B7 /* DPLMutableDeepLink.m in Sources */,
 				DEAD328D19E079D3003C8D65 /* main.m in Sources */,
+				63262CA9263C42FE005D95B7 /* NSString+DPLJSON.m in Sources */,
 				DEAD328919E079D3003C8D65 /* DPLReceiverAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1183,12 +1124,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63262CAD263C42FE005D95B7 /* DPLMutableDeepLink+AppLinks.m in Sources */,
 				62EE96F61B570B10003D7564 /* DPLProductDataSource.m in Sources */,
+				63262CBC263C42FE005D95B7 /* NSString+DPLTrim.m in Sources */,
 				62EE96F51B570AF4003D7564 /* DPLProductDetailViewController.m in Sources */,
+				63262CBF263C42FE005D95B7 /* NSObject+DPLJSONObject.m in Sources */,
+				63262CC5263C42FE005D95B7 /* DPLDeepLinkRouter.m in Sources */,
 				62335E031B57007F00E3818C /* DPLReceiverSwiftAppDelegate.swift in Sources */,
+				63262CA4263C42FE005D95B7 /* DPLRouteMatcher.m in Sources */,
+				63262CA1263C42FE005D95B7 /* NSString+DPLQuery.m in Sources */,
+				63262CB3263C42FE005D95B7 /* DPLRegularExpression.m in Sources */,
+				63262CB9263C42FE005D95B7 /* UINavigationController+DPLRouting.m in Sources */,
+				63262CB0263C42FE005D95B7 /* DPLDeepLink.m in Sources */,
 				62891E8B1B57FE5A00C2AF4F /* DPLMessageRouteHandler.swift in Sources */,
 				62EE96F81B570B16003D7564 /* DPLProductTableViewController.m in Sources */,
+				63262CC2263C42FE005D95B7 /* DPLRouteHandler.m in Sources */,
+				63262CB6263C42FE005D95B7 /* DPLDeepLink+AppLinks.m in Sources */,
+				63262CA7263C42FE005D95B7 /* DPLMatchResult.m in Sources */,
+				63262C9E263C42FE005D95B7 /* DPLMutableDeepLink.m in Sources */,
 				62EE96F71B570B13003D7564 /* DPLProduct.m in Sources */,
+				63262CAA263C42FE005D95B7 /* NSString+DPLJSON.m in Sources */,
 				62EE96F41B570891003D7564 /* DPLProductRouteHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1197,20 +1152,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A982D6482164636100FDFCCF /* DPLDeepLink+AppLinks.m in Sources */,
-				A982D6492164636100FDFCCF /* UINavigationController+DPLRouting.m in Sources */,
-				A982D64A2164636100FDFCCF /* NSString+DPLTrim.m in Sources */,
-				A982D64B2164636100FDFCCF /* DPLDeepLink.m in Sources */,
-				A982D64C2164636100FDFCCF /* NSString+DPLJSON.m in Sources */,
-				A982D64D2164636100FDFCCF /* DPLRouteMatcher.m in Sources */,
-				A982D64E2164636100FDFCCF /* DPLDeepLinkRouter.m in Sources */,
-				A982D64F2164636100FDFCCF /* DPLRegularExpression.m in Sources */,
-				A982D6502164636100FDFCCF /* DPLMatchResult.m in Sources */,
-				A982D6512164636100FDFCCF /* DPLMutableDeepLink.m in Sources */,
-				A982D6522164636100FDFCCF /* NSString+DPLQuery.m in Sources */,
-				A982D6532164636100FDFCCF /* DPLRouteHandler.m in Sources */,
-				A982D6542164636100FDFCCF /* NSObject+DPLJSONObject.m in Sources */,
-				A982D6552164636100FDFCCF /* DPLMutableDeepLink+AppLinks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1218,20 +1159,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFDB97011F3C0011001AE303 /* DPLDeepLink+AppLinks.m in Sources */,
-				BFDB96FB1F3C0011001AE303 /* UINavigationController+DPLRouting.m in Sources */,
-				BFDB96F71F3C0011001AE303 /* NSString+DPLTrim.m in Sources */,
-				BFDB97031F3C0011001AE303 /* DPLDeepLink.m in Sources */,
-				BFDB96F91F3C0011001AE303 /* NSString+DPLJSON.m in Sources */,
-				BFDB97001F3C0011001AE303 /* DPLRouteMatcher.m in Sources */,
-				BFDB96FE1F3C0011001AE303 /* DPLDeepLinkRouter.m in Sources */,
-				BFDB96FD1F3C0011001AE303 /* DPLRegularExpression.m in Sources */,
-				BFDB96FC1F3C0011001AE303 /* DPLMatchResult.m in Sources */,
-				BFDB97041F3C0011001AE303 /* DPLMutableDeepLink.m in Sources */,
-				BFDB96F81F3C0011001AE303 /* NSString+DPLQuery.m in Sources */,
-				BFDB96FF1F3C0011001AE303 /* DPLRouteHandler.m in Sources */,
-				BFDB96FA1F3C0011001AE303 /* NSObject+DPLJSONObject.m in Sources */,
-				BFDB97021F3C0011001AE303 /* DPLMutableDeepLink+AppLinks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1239,11 +1166,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63262CC6263C42FE005D95B7 /* DPLDeepLinkRouter.m in Sources */,
+				63262CB7263C42FE005D95B7 /* DPLDeepLink+AppLinks.m in Sources */,
 				DEDB14981A3F944D00A837F8 /* DPLActionsViewController.m in Sources */,
+				63262CAE263C42FE005D95B7 /* DPLMutableDeepLink+AppLinks.m in Sources */,
+				63262CA2263C42FE005D95B7 /* NSString+DPLQuery.m in Sources */,
 				DEE40E601A42B0580097EA33 /* DPLDemoAction.m in Sources */,
+				63262CBA263C42FE005D95B7 /* UINavigationController+DPLRouting.m in Sources */,
+				63262CA8263C42FE005D95B7 /* DPLMatchResult.m in Sources */,
+				63262CC3263C42FE005D95B7 /* DPLRouteHandler.m in Sources */,
 				DEE40E5F1A42B0530097EA33 /* DPLActionDataSource.m in Sources */,
 				DEDB14951A3F944D00A837F8 /* DPLSenderAppDelegate.m in Sources */,
 				DEDB14921A3F944D00A837F8 /* main.m in Sources */,
+				63262CB4263C42FE005D95B7 /* DPLRegularExpression.m in Sources */,
+				63262CB1263C42FE005D95B7 /* DPLDeepLink.m in Sources */,
+				63262CBD263C42FE005D95B7 /* NSString+DPLTrim.m in Sources */,
+				63262C9F263C42FE005D95B7 /* DPLMutableDeepLink.m in Sources */,
+				63262CC0263C42FE005D95B7 /* NSObject+DPLJSONObject.m in Sources */,
+				63262CAB263C42FE005D95B7 /* NSString+DPLJSON.m in Sources */,
+				63262CA5263C42FE005D95B7 /* DPLRouteMatcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
