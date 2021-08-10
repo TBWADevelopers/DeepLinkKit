@@ -5,7 +5,6 @@ import PackageDescription
 
 let package = Package(
     name: "DeepLinkKit",
-    platforms: [.iOS(.v13)],
     products: [
         .library(
             name: "DeepLinkKit",
@@ -15,6 +14,7 @@ let package = Package(
         .target(
             name: "DeepLinkKit",
             dependencies: [],
-            path: "DeepLinkKit")
+            path: "DeepLinkKit",
+            publicHeadersPath: ".")
     ]
 )
